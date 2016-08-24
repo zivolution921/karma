@@ -8,6 +8,8 @@
     <%= f.input :age %>
     <%= f.input :gender %>
     <%= f.input :bio %>
+    <%= f.input :expertise %>
+    <%= f.input :service_needed %>
     <%= f.input :email, required: true, autofocus: true %>
 
     <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
