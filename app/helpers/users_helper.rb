@@ -8,6 +8,7 @@ module UsersHelper
       "Accept or Deny"
     when "not_friends"
       "Add as a Friend"
+      link_to "Add as Friend", friendships_path(user_id: user.id), method: :post
     end
   end
 end
