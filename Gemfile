@@ -6,6 +6,13 @@ gem 'rails', '4.2.6'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 
+# Use angularjs front end
+gem 'angularjs-rails'
+# Use ui-router module with angular
+gem 'angular-ui-router-rails'
+# Use angular templates
+gem 'angular-rails-templates'
+
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 
 gem 'simple_form'
